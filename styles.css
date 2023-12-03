@@ -1,0 +1,53 @@
+body {
+    background-image: url('dating.jpg'); 
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FF69B4; /* Text color, you can adjust this */
+}
+
+header {
+    background-color: #FFF; /* White header */
+    color: #050505; /* Deep pink text color */
+    padding: 15px;
+    font-size: 36px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(#ffffff00); /* White content background with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #FF69B4; /* Deep pink text color for labels */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FF69B4; /* Deep pink submit button */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FF1493; /* Darker pink on hover */
+}
